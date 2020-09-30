@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+def index(request):
+    """ Render React HTML index """
+    return render(request, 'frontend/index.html')
